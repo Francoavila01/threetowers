@@ -1,0 +1,73 @@
+body{
+  background-image: url(bg\ img\ index.avif) ;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* https://images.unsplash.com/photo-1496765111150-918497b59c9e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* https://images.unsplash.com/photo-1423768164017-3f27c066407f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* https://images.unsplash.com/photo-1625186784121-39d71a48f5d0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* https://images.unsplash.com/photo-1562736171-895cefb6a161?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* https://images.unsplash.com/photo-1532080511667-3d838e8d2b55?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+
+.glass{
+  background: rgba(255, 255, 255, .1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+}
+.glass1{
+  background: rgba(255, 255, 255, .1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  backdrop-filter: blur(1px);
+}
+/* btn */
+button {
+
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #7e97b8;
+  background-color: #e0e8ef;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 20px 10px 20px;
+  transform: translate(0px, 0px) rotate(0deg);
+  transition: 0.2s;
+  box-shadow: -4px -2px 13px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+  backdrop-filter: blur(10px);
+ }
+ 
+ button:hover {
+  color: #516d91;
+  background-color: #E5EDF5;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+ }
+ 
+ button:active {
+  box-shadow: none;
+ }
+
+/* btn */
+
+.img{
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+

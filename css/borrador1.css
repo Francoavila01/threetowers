@@ -1,0 +1,140 @@
+/* BORDES */
+.borde{
+  border-radius: 50px;
+}
+/* start */
+.borde1{
+  border-start-start-radius: 50px;
+  border-start-end-radius: 50px;
+}
+/* end */
+.borde2{
+  border-end-start-radius: 50px;
+  border-end-end-radius: 50px;
+}
+/* BORDES */
+
+
+/* BARRA LATERAL */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+.vh{
+    width: 100px;
+    height: 95vh;
+  }
+
+/* BARRA LATERAL */
+
+
+/* COLORES */
+.color1{
+background-color: #555;
+ }
+.color2{
+  background-color: rgb(48, 48, 48);
+ }
+.color3{
+  background-color:rgb(30, 30, 30);
+ }
+.colortext{
+  color:rgb(226, 232, 240) ;
+}
+.itemscolor{
+  color: rgb(226, 232, 240);
+}
+/* COLORES */
+
+
+
+/* modal de terminos */
+.absolute{
+  position: absolute;
+  padding: 10px;
+  margin-top: -90px;
+  margin-left: 50px;
+  border-radius: 10px;
+  background: #fafafa10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+/* modal de terminos */
+
+/* carta 2 */
+.mr{
+  margin-bottom: 0px;
+}
+/* carta 2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo del scroll para navegadores webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho del scroll */
+}
+
+/* Track (fondo del scroll) */
+::-webkit-scrollbar-track {
+  background: rgb(30, 30, 30); /* Color de fondo del scroll */
+}
+
+/* Handle (barra del scroll) */
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 30, 30); /* Color de la barra del scroll */
+}
+
+/* Handle al pasar el mouse sobre el scroll */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color de la barra del scroll al pasar el mouse */
+}
