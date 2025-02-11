@@ -71,20 +71,19 @@ background-color: #555;
 .mr{
   margin-bottom: 0px;
 }
-/* carta 2 */
 
 
 
-
-
-
-
-
-
-
-
-
-
+@media (min-width:350px){
+  .responsivo{
+    width: 100%;
+  }
+}
+@media (min-width:576px){
+  .responsivo{
+    width: 50%;
+  }
+}
 
 
 
