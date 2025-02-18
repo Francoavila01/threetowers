@@ -84,8 +84,16 @@ background-color: #555;
     width: 50%;
   }
 }
-
-
+@media (min-width:576px){
+  canvas {
+    max-width: 20%;
+  }
+}
+@media (min-width:350px){
+  canvas {
+    max-width: 40%;
+  }
+}
 
 
 

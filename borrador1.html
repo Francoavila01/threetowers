@@ -19,6 +19,21 @@
    <link rel="stylesheet" href="fallas.html">
    <link rel="stylesheet" href="">
    <!-- LINKS -->
+  
+   <style>
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        
+    }
+    canvas {
+        
+        height: 400px;
+    }
+</style>
 </head>
 
 
@@ -169,7 +184,7 @@
     <a class="nav-item nav-link link-body-emphasis" href=""></a>
     <svg width="35px" height="35px" viewBox="-9.36 -9.36 42.72 42.72" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e2e8f0" stroke-width="0.00024000000000000003" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-9.36" y="-9.36" width="42.72" height="42.72" rx="13.2432" fill="#2371d7" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <path d="M12.75 9C12.75 8.58579 12.4142 8.25 12 8.25C11.5858 8.25 11.25 8.58579 11.25 9L11.25 11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H11.25V15C11.25 15.4142 11.5858 15.75 12 15.75C12.4142 15.75 12.75 15.4142 12.75 15L12.75 12.75H15C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H12.75V9Z" fill="#e2e8f0"></path><title>AGREGAR</title> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z" fill="#e2e8f0"></path> </g></svg>
       </button>
-      <a class="nav-item nav-link link-body-emphasis" href="borrador1.html"></a>
+      <a class="nav-item nav-link link-body-emphasis  href="borrador1.html"></a>
        <button  class="btn btn4 mb-4" >
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0,0,256,256">
           <g fill="#e2e8f0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><title>CASA</title><path d="M12,2c-0.26712,0.00003 -0.52312,0.10694 -0.71094,0.29688l-10.08594,8.80078c-0.12774,0.09426 -0.20313,0.24359 -0.20312,0.40234c0,0.27614 0.22386,0.5 0.5,0.5h2.5v8c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-6h4v6c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-8h2.5c0.27614,0 0.5,-0.22386 0.5,-0.5c0.00001,-0.15876 -0.07538,-0.30808 -0.20312,-0.40234l-10.08008,-8.79492c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.18782,-0.18994 -0.44382,-0.29684 -0.71094,-0.29687z"></path></g></g></svg>
@@ -214,17 +229,16 @@
 
 
 <!-- CARTAS 1-->
-      <div class="container-fluid mt-5" >
+      <div class="container mt-5" >
         <div class="row mx-5">
         <!-- CARTA 1 -->
        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mx-xxl-5 mx-xl-0 style="height: 600px;>
         <h1>HOY</h1>
-        <hr>
         <div class="row">
-          <div class="col-6 mt-4 responsivo"><h1>TEMPERATURA</h1><hr><h5>25º</h5></div>
-          <div class="col-6 mt-4 responsivo"><h1>HUMEDAD</h1h1><hr><h5>70%</h5></div>
-          <div class="col-6 mt-4 responsivo"><h1>ALERTAS</h1><hr><h5>0</h5></div>
-          <div class="col-6 mt-4 responsivo"><h1>VIENTO EX</H5><hr><h5>15 km/h</h5></div>
+          <div class="col-6 mt-4 responsivo"><h1>TEMPERATURA</h1><h5>25º</h5></div>
+          <div class="col-6 mt-4 responsivo"><h1>HUMEDAD</h1h1><h5>70%</h5></div>
+          <div class="col-6 mt-4 responsivo"><h1>ALERTAS</h1><h5>0</h5></div>
+          <div class="col-6 mt-4 responsivo"><h1>LLUVIA</H5><h5>15 km/h</h5></div>
         </div>
 
        </div>
@@ -236,97 +250,142 @@
 <!-- CARTAS -->
 </div>
 
+<div class=" contenedor mt-5">
+  <canvas class="mx-3" id="grafico1"></canvas>
+  <canvas class="mx-3" id="grafico2"></canvas>
+</div>
 
-   <!-- CARTAS 2-->
-   <div class="container-fluid  mt-5 text-center">
-    <hr>
-    <div class="row mt-5">
-
-      <div class="col-6 responsivo ">
-        <div class="color2 h5 borde1" >GRAFICO
-          <!-- GRAFICO 1 -->
-          <canvas id="miGrafico" style="height: 350px; width: 100%; "></canvas>
-        </div>
+ <!-- CONTENT -->
+ <div class="container mt-5 text-light" style="width: 900px;">
+  <h1 class="text-center mb-4">Dias Anteriores</h1>
+  <hr>
+  <!-- Menú de navegación lateral -->
+  <div class="row">
+      <div class="col-md-3">
+          <div class="list-group">
+              <a href="#perfil" class="list-group-item list-group-item-action bg-dark text-light " data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#perfil">
+                  Ayer
+              </a>
+              <a href="#notificaciones" class="list-group-item list-group-item-action bg-dark text-light " data-bs-toggle="collapse"aria-expanded="false" data-bs-target="#notificaciones">
+                  Hace Dos Dias
+              </a>
+             
+          </div>
       </div>
 
-      <div class="col-6 responsivo " >
-        <div class="color2 h5 borde1" >GRAFICO
-          <!-- GRAFICO 2 -->
-          <canvas id="miGrafico2" style="height: 350px; width: 100% ;"></canvas>
+      <!-- Contenido principal -->
+      <div class="col-md-9">
+          <!-- Sección de Perfil -->
+          <div id="perfil" class="collapse show text-center">
+              <h5>TEMPERATURA / HUMEDAD</h5>
+              <p>hace 1 dia</p>
+             <!-- <p>MAXIMA - MINIMA / HUMEDAD</p>-->
+              <div class="container mt-4">
+                <div class="row ju">
+                  <div class="col-4"><p>Maxima</p><h5>3</H5></div>
+                  <div class="col-4"><p>Minima</p><h5>3</H5></div>
+                  <div class="col-4"><p>Humedad</p><h5>3</H5></div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Sección de Notificaciones -->
+          <div id="notificaciones" class="collapse show mt-4">
+              <!-- Sección de Perfil -->
+          <div id="perfil" class="collapse show text-center">
+            <h5>TEMPERATURA / HUMEDAD</h5>
+            <p>hace 2 dia</p>
+           <!-- <p>MAXIMA - MINIMA / HUMEDAD</p>-->
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-4"><p>Maxima</p><h5>3</H5></div>
+                <div class="col-4"><p>Minima</p><h5>3</H5></div>
+                <div class="col-4"><p>Humedad</p><h5>3</H5></div>
+              </div>
+            </div>
         </div>
+          </div>
+
+          <!-- Sección de Seguridad -->
+          <div id="seguridad" class="collapse">
+              <h2>Configuración de Seguridad</h2>
+              <p>Mejora la seguridad de tu cuenta activando opciones adicionales de protección.</p>
+              <form>
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="autenticacionDoble">
+                      <label class="form-check-label" for="autenticacionDoble">
+                          Activar autenticación de dos factores
+                      </label>
+                      <small class="form-text text-muted">Añade una capa extra de seguridad a tu cuenta.</small>
+                  </div>
+                  <div class="mb-3">
+                      <label for="contrasena" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="contrasena" placeholder="Ingrese su nueva contraseña">
+                      <small class="form-text text-muted">Asegúrate de usar una contraseña segura.</small>
+                  </div>
+                  <div class="mb-3">
+                      <label for="confirmarContrasena" class="form-label">Confirmar Contraseña</label>
+                      <input type="password" class="form-control" id="confirmarContrasena" placeholder="Confirme su nueva contraseña">
+                  </div>
+                  <button type="submit" class="btn btn-primary mt-3">Guardar Cambios</button>
+              </form>
+          </div>
+
+          
+
+          
+         
       </div>
-   </div>
-
-   
-
-
-
-
-
-
-
-
+  </div>
+</div>
+<!-- CONTENT -->
 <!-- PIE DE PAGINA -->
 <footer class="col-auto col-lg-12 col-sm-12 my-5 text-center" >© 2024 Air&Data Company, Inc. "Air&Data" y el diseño son marcas comerciales registradas de Air&DATA, Inc. Todos los derechos reservados.
   <br>
   <a>Términos de uso</a> | <a>Política de privacidad</a> | <a>Política de cookies</a>
-
-<!-- MODAL DE ACEPTACION DE TERMNOS  -->
-  <div id="modal" class="class text-light absolute">
-    <a>Acepta nuestras  Política de cookies <br>y Política de privacidad</a>
-    <br>
-    <button id="cancelarBtn" type="button" class="btn btn-large color2 text-light " data-bs-dismiss="modal" aria-label="Close">ACEPTAR</button>
-  </div>
-<!-- MODAL DE ACEPTACION DE TERMNOS  -->
 </footer>
 <!-- PIE DE PAGINA -->
 
-</div>
-</div>
 
 
 
-<!-- BOTON DE CERRAR DE ACEPTACION DE COOKES Y TERMINOS -->
-<script>
-  // Obtener el modal y los botones
-var modal = document.getElementById('modal');
-var cancelarBtn = document.getElementById('cancelarBtn');
-// Cerrar el modal al hacer clic en "Cancelar" o fuera del contenido del modal
-window.onclick = function(event) {
-    if (event.target == modal || event.target == cancelarBtn) {
-        modal.style.display = 'none';
-    }
-};
-</script>
-<!-- BOTON DE CERRAR DE ACEPTACION DE COOKES Y TERMINOS -->
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <!-- GRAFICO 1 -->
 <script>
-  // Obtener el contexto del lienzo (canvas)
-  const ctx = document.getElementById('miGrafico').getContext('2d');
-
-  // Crear el gráfico
-  const miGrafico = new Chart(ctx, {
-      type: 'bar', // Tipo de gráfico (barra en este caso)
-      data: {
-          labels: ['0 hs - 6 hs', '7 hs - 12 hs', '13 hs - 18 hs', '19 hs - 24 hs'],
-          datasets: [{
-              label: 'Temperatura Ambiente',
-              data: [20, 40, 60, 80, 95], // Datos para las barras
-              backgroundColor: 'rgba(54, 162, 235, 0.5)', // Color de fondo de las barras
-              borderColor: 'rgba(54, 162, 235, 1)', // Color del borde de las barras
-              borderWidth: 1 // Ancho del borde de las barras
-          }]
-      },
-      options: {
-          scales: {
-              y: {
-                  beginAtZero: true // Empezar el eje Y desde cero
+  function crearGrafico(id, label, datos, color) {
+      const ctx = document.getElementById(id).getContext('2d');
+      new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: ['0 hs - 6 hs', '7 hs - 12 hs', '13 hs - 18 hs', '19 hs - 24 hs'],
+              datasets: [{
+                  label: label,
+                  data: datos,
+                  backgroundColor: color,
+                  borderColor: color.replace('0.5', '1'),
+                  borderWidth: 1
+              }]
+          },
+          options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                  y: { beginAtZero: true }
               }
           }
-      }
-  });
+      });
+  }
+
+  crearGrafico('grafico1', 'Temperatura Ambiente', [10, 20, 30, 40], 'rgba(54, 162, 235, 0.5)');
+  crearGrafico('grafico2', 'Humedad Relativa', [25, 50, 75, 90 ], 'rgba(255, 99, 132, 0.5)');
 </script>
 <!-- GRAFICO 1 -->
 
