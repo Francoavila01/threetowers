@@ -61,98 +61,12 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
-      <div class="modal-body mt-3">
-        <h3 class="f-bold"><strong>Iniciar sesión en su cuenta</strong> </h3>
-        <form class="mt-4">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label h6">Correo electrónico</label>
-            <input type="email" class="form-control color3 border-dark" placeholder="Correo@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
-          </div>
-          <div class="mb-4">
-            <label for="exampleInputPassword1" class="form-label h6">Contraseña</label>
-            <input type="password" class="form-control color3 border-dark" placeholder="********" id="exampleInputPassword1">
-          </div>
-          <div class="mb-4 form-check">
-            <input type="checkbox" class="form-check-input color3 border-dark" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Acuérdate de mí</label>
-            <a href="" class="mx-4">¿Has olvidado tu contraseña?</a>
-          </div>
-          <div class="d-grid gap-3">
-            <button class="btn btn-primary" type="button">Iniciar Sesion</button>
-            <button class="btn btn-light " type="button">Crear Cuenta</button>
-          </div>
-          <footer>
-            <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover d-block text-center mt-4">Política de privacidad</a></footer>
-        </form>
-       
-      </div>
+     
     </div>
   </div>
 </div>
 <!-- Modal REGISTRO-->
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
-    <div class="modal-content color2 colortext " style="height: 751px; padding: 20px; ">
 
-      <div class="modal-header">
-        <img class="logo mx-3" src="imagen/2torres 3d v2.PNG" alt="" height="40px" width="55px" >
-        <h1 class="modal-title fs-2" id="exampleModal1Label">AIR & DATA</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-
-      <div class="modal-body">
-        <h3 class="f-bold"><strong>Registre su cuenta</strong> </h3>
-        <form class="mt-4">
-
-          <div class="mb-3">
-            <div class="row">
-              <div class="col">
-                <h6>First name</h6>
-                <input type="text" class="form-control color3 border-dark" placeholder="First name" aria-label="First name">
-              </div>
-              <div class="col">
-                <h6>Last name</h6>
-                <input type="text" class="form-control color3 border-dark" placeholder="Last name" aria-label="Last name">
-              </div>
-            </div>
-          </div>
-
-          <div class="mb-4">
-            <label for="exampleInputPassword1" class="form-label h6">Correo Electronico</label>
-            <input type="password" class="form-control color3 border-dark" placeholder="correo@gmail.com" id="exampleInputPassword1">
-          </div>
-
-          <div class="mb-4">
-            <label for="exampleInputPassword1" class="form-label h6">Contraseña</label>
-            <input type="password" class="form-control color3 border-dark"placeholder="********"  id="exampleInputPassword1">
-          </div>
-
-          <div class="mb-4">
-            <label for="exampleInputPassword1" class="form-label h6">Repita la contraseña</label>
-            <input type="password" class="form-control color3 border-dark"placeholder="********"  id="exampleInputPassword1">
-          </div>
-
-          <div class="mb-4 form-check">
-            <input type="checkbox" class="form-check-input color3 border-dark" id="exampleCheck1">
-            <label class="form-check-label h6" for="exampleCheck1">Certifico que tengo 18 años de edad o más, acepto las
-              <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Condiciones de uso</a>  y reconozco la 
-              <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Política de privacidad</a> .</label>
-            <!-- <a href="" class="mx-4">¿Has olvidado tu contraseña?</a> -->
-          </div>
-
-          <div class="d-grid ">
-            <button class="btn btn-primary" type="button"><h6>Crea una cuenta</h6></button>
-          </div>
-
-          <a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover d-block text-center pt-4">¿Ya tienes una cuenta? Entre aquí</a>
-        </form>
-
-       
-      </div>
-    </div>
-  </div>
-</div>
     </header>
 <!-- HEDER -->
 
@@ -364,7 +278,7 @@
 <!-- topicos -->
 <script>
   // Configuración del broker MQTT (WSS para conexión segura)
-  const broker = "wss://d99cd1ef1f5d48c193befdb36bbe9a44.s1.eu.hivemq.cloud:8883/mqtt";
+  const broker = "wss://d99cd1ef1f5d48c193befdb36bbe9a44.s1.eu.hivemq.cloud:8884/mqtt";
   const username = "Museo";
   const password = "Sarmiento1";
   const topic1 = "esp32/temperatura"; // Primer tópico
